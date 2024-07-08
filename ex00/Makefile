@@ -1,5 +1,5 @@
 # **************************************************************************** #
-# VARIABLES                                                                    #
+# VARIABLES                                                                #
 # NAME: Define el nombre de la biblioteca que se creará.                       #
 NAME = megaphone
 # CC: Especifica el compilador a usar.                                         #
