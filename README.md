@@ -73,7 +73,7 @@ This exercise intends to extract information and directions from useless noise, 
 
 This exercise is pretty straight forward. Either Account.cpp works, either it does not. Compare the program's output and the provided log. Any difference apart from the timestamp means something is not ok for this exercise.
 
-[↑↑ top ↑↑](#cpp00)
+[**↑↑ top ↑↑**](#cpp00)
 
 ## Evaluación
 
@@ -148,4 +148,4 @@ O Account.cpp funciona o no.
 Compare la salida del programa y el registro proporcionado. 
 Cualquier diferencia aparte de la marca de tiempo significa que algo no está bien para este ejercicio.
 
-[↑↑ subir ↑↑](#cpp00)
+[**↑↑ subir ↑↑**](#cpp00)
