@@ -41,7 +41,7 @@ You are not coding in C anymore. Time to C++! Therefore:
 - Read each module completely before starting! Really, do it.
 - By Odin, by Thor! Use your brain!!!
 
-<div style="color:orange">orange</div> 
+<div class="background: white;">orange</div> 
 
 [**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
 
