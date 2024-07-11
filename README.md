@@ -1,12 +1,14 @@
 # CPP00
 
-> [!NOTE] Subjects
-> - [ ] [English](#subjects-english)
-> - [ ] [Castellano](#subjects-castellano)
+> [!NOTE] 
+> Subjects
+> :white_check_mark: [English](#subjects-english)
+> :white_check_mark: [Castellano](#subjects-castellano)
 
-> [!NOTE] Evaluation     
-> - [ ] [English](#evaluation) 
-> - [ ] [Castellano](#evaluación)
+> [!NOTE] 
+> Evaluation     
+> :white_check_mark: [English](#evaluation) 
+> :white_check_mark: [Castellano](#evaluación)
 
 ## Subjects English
 
