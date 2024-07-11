@@ -146,37 +146,3 @@ int main()
     }
     return (0);
 }
-
-
-/*
-Ex01: Mi Increíble Agenda Telefónica
-Este ejercicio es una introducción a la creación de una clase simple y un programa interactivo que la utiliza. 
-A continuación, se desglosan los criterios de evaluación:
-
-Funcionalidad (incluso si está parcialmente completada):
-
-Clase Contacto:
-Presencia: El código debe incluir una clase Contacto (o un nombre similar elegido por el estudiante).
-Atributos: La clase debe tener variables miembro privadas para almacenar información de contacto (por ejemplo, nombre, número de teléfono).
-Accesores: La clase debe proporcionar funciones miembro públicas (getters y setters) para acceder y modificar los atributos privados.
-Clase Agenda Telefónica:
-Presencia: El código debe incluir una clase AgendaTelefónica (o un nombre similar).
-Matriz de contactos: La clase debe tener una variable miembro privada para almacenar una matriz de objetos Contacto.
-Bucle de lectura/evaluación:
-Entrada/Salida: El programa debe usar std::cin y std::cout para la interacción con el usuario.
-Bucleo: El programa debe tener un bucle que lea continuamente los comandos del usuario hasta que se introduzca un comando "SALIR".
-Procesamiento de comandos:
-Comando SALIR: El programa debe manejar correctamente el comando "SALIR", finalizando el programa con gracia.
-Comando AGREGAR (Evaluar según lo descrito en la materia): El programa debe poder agregar nuevos contactos a la agenda telefónica. Céntrese en la funcionalidad principal de agregar contactos, pero consulte los detalles de la materia para los criterios de calificación específicos.
-Comando BUSCAR (Evaluar según lo descrito en la materia): El programa debe poder buscar contactos en la agenda telefónica. Céntrese en la funcionalidad principal de búsqueda, pero consulte los detalles de la materia para los criterios de calificación específicos, ya que se aceptan pequeñas discrepancias de formato. Aquí, preste atención al uso de iostreams de C++ para la salida formateada.
-Consideraciones adicionales:
-
-Manejo de errores: Si bien no se definen comportamientos específicos, se agradece el manejo básico de errores. Esto podría implicar manejar situaciones como una agenda telefónica llena o una entrada de usuario no válida. Sin embargo, el programa no debería bloquearse (segfault).
-Calidad del código:
-La sangría y el formato deben ser consistentes para mejorar la legibilidad.
-Los comentarios pueden ser útiles para explicar la funcionalidad del código.
-Miembros privados vs. públicos:
-Las variables miembro para almacenar datos deben ser privadas dentro de la clase.
-Se deben usar funciones miembro públicas (accesores) para acceder y modificar datos privados. Evita hacer todo público.
-
-*/
