@@ -148,4 +148,5 @@ O Account.cpp funciona o no.
 Compare la salida del programa y el registro proporcionado. 
 Cualquier diferencia aparte de la marca de tiempo significa que algo no está bien para este ejercicio.
 
-[**⬆⬆ subir ⬆⬆**](#cpp00)
+
+<p align="right">[**⬆⬆ subir ⬆⬆**](#cpp00)</p>
