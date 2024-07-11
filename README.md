@@ -149,4 +149,4 @@ Compare la salida del programa y el registro proporcionado.
 Cualquier diferencia aparte de la marca de tiempo significa que algo no está bien para este ejercicio.
 
 
-<p align="right">[**⬆⬆ subir ⬆⬆**](#cpp00)</p>
+-> [**⬆⬆ subir ⬆⬆**](#cpp00) ->
