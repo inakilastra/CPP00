@@ -73,7 +73,9 @@ This exercise intends to extract information and directions from useless noise, 
 
 This exercise is pretty straight forward. Either Account.cpp works, either it does not. Compare the program's output and the provided log. Any difference apart from the timestamp means something is not ok for this exercise.
 
+
 [**⬆⬆ top ⬆⬆**](#cpp00)
+
 
 ## Evaluación
 
@@ -149,5 +151,4 @@ Compare la salida del programa y el registro proporcionado.
 Cualquier diferencia aparte de la marca de tiempo significa que algo no está bien para este ejercicio.
 
 
-<div align="right">[**⬆⬆ subir ⬆⬆**](#cpp00)</div>
-<div align="right">Now, everyone begins as a poor player—it takes time to learn a game to get to a point where you know what you’re doing. There is the mistaken notion, though, that by merely continuing to play or “learn” the game, one can become a top player. In reality, the “scrub” has many more mental obstacles to overcome than anything actually going on during the game. The scrub has lost the game even before it starts. He’s lost the game even before deciding which game to play. His problem? He does not play to win.</div>
+[**⬆⬆ subir ⬆⬆**](#cpp00)
