@@ -1,8 +1,8 @@
 # CPP00
 ## Proyect CPP - Module 00 ════ Proyecto CPP - Módulo 00
 English   Castellano
-
-## Proyect CPP - Module 00
+[Proyecto CPP - Módulo 00 Castellano](#proyecto-cpp-módulo-00)
+## Proyect CPP Module 00
 
 Guidelines
 You must compile with clang++, with -Wall -Wextra -Werror
@@ -68,7 +68,7 @@ the provided log. Any difference apart from the timestamp means something is not
 
 
 
-## Proyecto CPP - Módulo 00
+## Proyecto CPP Módulo 00
 
 Guía
 
