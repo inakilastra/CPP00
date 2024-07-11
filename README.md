@@ -1,7 +1,8 @@
 # CPP00
+## Proyect CPP - Module 00 ════ Proyecto CPP - Módulo 00
+English   Castellano
 
-
-Proyecto CPP - Módulo 00
+## Proyect CPP - Module 00
 
 Guidelines
 You must compile with clang++, with -Wall -Wextra -Werror
@@ -65,6 +66,9 @@ Did you save the day?
 This exercise is pretty straight forward. Either Account.cpp works, either it does not. Compare the program's output and
 the provided log. Any difference apart from the timestamp means something is not ok for this exercise.
 
+
+
+## Proyecto CPP - Módulo 00
 
 Guía
 
