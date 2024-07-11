@@ -1,7 +1,14 @@
 # CPP00
 
+> [!NOTE]
+> Subjects
+- [ ] [English](#subjects-english)
+- [ ] [Castellano](#subjects-castellano)
 
-[Subjects English](#subjects-english)     [Subjects Castellano](#subjects-castellano)     [Evaluation](#evaluation)     [Evaluación](#evaluación)
+> [!NOTE]
+> Evaluation     
+- [ ] [English](#evaluation) 
+- [ ] [Castellano](#evaluación)
 
 ## Subjects English
 
