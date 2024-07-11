@@ -1,7 +1,9 @@
 # CPP00
 
-<span style="background-color: #00FF00;">Your span text with green background</span>
-<div style="background-color: #00FF00;">Your div text with green background</div>
+``
+Your span text with green background
+Your div text with green background
+``
 
 
 [Subjects](#subjects) [Evaluation](#evaluation) [Evaluación](#evaluación)
