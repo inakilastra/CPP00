@@ -2,13 +2,13 @@
 
 > [!NOTE] 
 > Subjects
-> :white_check_mark: [English](#subjects-english)
-> :white_check_mark: [Castellano](#subjects-castellano)
+> - :white_check_mark: [English](#subjects-english)
+> - :white_check_mark: [Castellano](#subjects-castellano)
 
 > [!NOTE] 
 > Evaluation     
-> :white_check_mark: [English](#evaluation) 
-> :white_check_mark: [Castellano](#evaluación)
+> - :white_check_mark: [English](#evaluation) 
+> - :white_check_mark: [Castellano](#evaluación)
 
 ## Subjects English
 
