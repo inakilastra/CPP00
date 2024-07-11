@@ -1,6 +1,8 @@
 # CPP00
 
-The background color is '#ffffff' for light mode and '#000000' for dark mode.
+<span style="background-color: #00FF00;">Your span text with green background</span>
+<div style="background-color: #00FF00;">Your div text with green background</div>
+
 
 [Subjects](#subjects) [Evaluation](#evaluation) [Evaluación](#evaluación)
 
