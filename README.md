@@ -42,6 +42,12 @@ You are not coding in C anymore. Time to C++! Therefore:
 - By Odin, by Thor! Use your brain!!!
 
 <div class="background: white;">orange</div> 
+<span style="color:orange">orange</span>  
+<span style="color:lime">lime</span>  
+<font color='red'>rojo</font>
+<span style="background: white;color:orange">orange</span>  
+<span style="background: white;color:lime">lime</span>  
+<font color='red'>rojo</font>
 
 [**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
 
