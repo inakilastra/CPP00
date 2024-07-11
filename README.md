@@ -1,6 +1,6 @@
 # CPP00
 
-``
+``c++
 Your span text with green background
 Your div text with green background
 ``
