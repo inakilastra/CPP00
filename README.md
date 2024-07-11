@@ -1,5 +1,7 @@
 # CPP00
 
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
+
 [Subjects](#subjects) [Evaluation](#evaluation) [Evaluación](#evaluación)
 
 ## Subjects
@@ -41,13 +43,7 @@ You are not coding in C anymore. Time to C++! Therefore:
 - Read each module completely before starting! Really, do it.
 - By Odin, by Thor! Use your brain!!!
 
-<div class="background: white;">orange</div> 
-<span style="color:orange">orange</span>  
-<span style="color:lime">lime</span>  
-<font color='red'>rojo</font>
-<span style="background: white;color:orange">orange</span>  
-<span style="background: white;color:lime">lime</span>  
-<font color='red'>rojo</font>
+
 
 [**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
 
