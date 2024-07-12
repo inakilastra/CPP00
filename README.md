@@ -94,7 +94,7 @@ theoretical concepts.
 ```
 
 <br /><br />
-[:arrow_up: **top** :arrow_up:](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **top** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
 <h3>Exercise 00: Megaphone</h3>
@@ -120,7 +120,7 @@ Solve the exercises in a C++ manner.
 ```
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **top** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
 <h3>Exercise 01: My Awesome PhoneBook</h3>
@@ -186,7 +186,7 @@ http://www.cplusplus.com/reference/iomanip/
 
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **top** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
 <h3>Exercise 02: The Job Of Your Dreams</h3>
@@ -225,7 +225,7 @@ You can pass this module without doing exercise 02.
 Turn in your assignment in your Git repository as usual. Only the work inside your repository will be evaluated during the defense. Don’t hesitate to double check the names of your files to ensure they are correct.
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **top** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br /><br /><br />
 
 ## <h2>Subject Castellano</h2>
@@ -301,7 +301,7 @@ Sin embargo, sigue las reglas obligatorias y no seas holgazán.
 ```
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
 <h3>Exercise 00: BraiiiiiiinnnzzzZ</h3>
@@ -334,7 +334,7 @@ Ahora bien, ¿cuál es el objetivo real del ejercicio? Tienes que determinar en 
 Los zombis deben ser destruidos cuando ya no los necesites. El destructor debe imprimir un mensaje con el nombre del zombie para fines de depuración.
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
 <h3>Exercise 01: Moar brainz!</h3>
@@ -358,7 +358,7 @@ Intenta llamar a anunciar() para cada uno de los zombies.
 No olvides eliminar todos los zombies y comprobar si hay **pérdidas de memoria**.
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
 <h3>Exercise 02: HI THIS IS BRAIN</h3>
@@ -394,7 +394,7 @@ Y luego:
 Eso es todo, sin trucos. El objetivo de este ejercicio es desmitificar referencias que pueden parecer completamente nuevas. Aunque existen algunas pequeñas diferencias, esta es otra sintaxis para algo que ya hace: manipulación de direcciones.
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
 <h3>Exercise 03: Unnecessary violence</h3>
@@ -455,7 +455,7 @@ No olvides comprobar si hay **pérdidas de memoria**.
 ```
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
 <h3>Exercise 04: Sed is for losers</h3>
@@ -473,7 +473,7 @@ El uso de funciones de manipulación de archivos C está prohibido y se consider
 Por supuesto, maneje entradas y errores inesperados. Debe crear y entregar sus propias pruebas para garantizar que su programa funcione como se espera.
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
 <h3>Exercise 05:  Harl 2.0</h3>
@@ -518,7 +518,7 @@ El objetivo de este ejercicio es utilizar **punteros a funciones miembro**. Esto
 Cree y entregue pruebas para demostrar que Harl se queja mucho. Puede utilizar los ejemplos de comentarios enumerados anteriormente en el asunto o optar por utilizar sus propios comentarios.
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
 <h3>Exercise 06: Harl filter</h3>
@@ -555,7 +555,7 @@ Puedes aprobar este módulo sin realizar el ejercicio 06.
 ```
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br /><br /><br />
 
 ## <h2>Evaluation</h2>
@@ -650,7 +650,7 @@ Ex: calling announce() on all the zombies.
 Last, all the zombies should be deleted at the same time in the main.
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **top** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
 <h3>Ex02: HI THIS IS BRAIN</h3>
@@ -675,7 +675,7 @@ The address of the string is displayed using the string variable, the stringPTR 
 The string is displayed using the stringPTR and the stringREF.
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **top** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
 <h3>Ex03: Unnecessary violence</h3>
@@ -705,7 +705,7 @@ Ideally, it should be implemented as a reference, since the Weapon exists from c
 HumanB must have a pointer to a Weapon since the field is not set at creation time, and the weapon can be NULL.
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **top** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
 <h3>Ex04: Sed is for losers</h3>
@@ -731,7 +731,7 @@ The implementation of the function should be done using functions from std::stri
 This is not C anymore!
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **top** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
 <h3>Ex05: Karen 2.0</h3>
@@ -756,7 +756,7 @@ If the implementation is different but the exercise works you should mark it as 
 The student could have chosen to change the message Karen displays or to display the examples given in the subject, both are valid.
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **top** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
 <h3>Ex06: Karen-filter</h3>
@@ -778,7 +778,7 @@ The program karenFilter takes as argument any of the log levels ("DEBUG", "INFO"
 Once again, no if/elseif/else anymore please.
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **top** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br /><br /><br />
 
 ## <h2>Evaluación</h2>
@@ -806,7 +806,7 @@ Cualquiera de estos significa que debes marcar el proyecto como Función Prohibi
 - Uso de una biblioteca externa o funciones de C++20
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
 <h3>Ex00: BraiiiiiiinnnzzzZ</h3>
@@ -853,7 +853,7 @@ El estudiante debe justificar sus elecciones.
 Hay pruebas para demostrar que todo funciona.
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
 <h3>Ex01: Moar brainz!</h3>
@@ -904,7 +904,7 @@ La dirección del string se muestra utilizando la variable del string, stringPTR
 EL string se muestra utilizando stringPTR y stringREF.
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
 <h3>Ex03: Unnecessary violence</h3>
@@ -934,7 +934,7 @@ Lo ideal sería implementarlo como referencia, ya que el Weapon existe desde la 
 HumanB debe tener un puntero a un Weapon ya que el campo no está configurado en el momento de la creación y el Weapon puede ser NULL.
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
 <h3>Ex04: Sed is for losers</h3>
@@ -960,7 +960,7 @@ La implementación de la función debe realizarse utilizando funciones de std::s
 ¡Esto ya no es C!
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
 <h3>Ex05: Karen 2.0</h3>
@@ -985,7 +985,7 @@ Si la implementación es diferente pero el ejercicio funciona, debes marcarlo co
 El estudiante pudo haber elegido cambiar el mensaje que muestra Karen o mostrar los ejemplos dados en el tema, ambos son válidos.
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
 <h3>Ex06: Karen-filter</h3>
@@ -1007,5 +1007,5 @@ El programa karenFilter toma como argumento cualquiera de los niveles de registr
 Una vez más, ya no if/elseif/else, por favor.
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
