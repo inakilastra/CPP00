@@ -4,10 +4,10 @@
 
 <br /><br />
 
-> Subjects
-> - :white_check_mark: [English](#subjects-english)
+> Subject
+> - :white_check_mark: [English](#subject-english)
 >
-> - :white_check_mark: [Castellano](#subjects-castellano)
+> - :white_check_mark: [Castellano](#subject-castellano)
 
 <br /><br />
 
@@ -18,7 +18,7 @@
 
 <br /><br /><br /><br />
 
-## <h2>Subjects English</h2>
+## <h2>Subject English</h2>
 
 <h3>General rules</h3>
 
@@ -228,7 +228,7 @@ Turn in your assignment in your Git repository as usual. Only the work inside yo
 [**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
 <br /><br /><br /><br />
 
-## <h2>Subjects Castellano</h2>
+## <h2>Subject Castellano</h2>
 
 <h3>Reglas generales</h3>
 
