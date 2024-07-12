@@ -94,7 +94,7 @@ theoretical concepts.
 ```
 
 <br /><br />
-[**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
+[:arrow_up: **top** :arrow_up:](#cpp00)
 <br /><br />
 
 <h3>Exercise 00: Megaphone</h3>
