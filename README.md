@@ -99,9 +99,9 @@ theoretical concepts.
 
 <h3>Exercise 00: Megaphone</h3>
 
-Turn-in directory : ex00/
-Files to turn in : Makefile, megaphone.cpp
-Forbidden functions : None
+Turn-in directory : ex00/<br />
+Files to turn in : Makefile, megaphone.cpp<br />
+Forbidden functions : None<br />
 
 Just to make sure that everybody is awake, write a program that behaves as follows:
 
@@ -125,9 +125,9 @@ Solve the exercises in a C++ manner.
 
 <h3>Exercise 01: My Awesome PhoneBook</h3>
 
-Turn-in directory : ex01/
-Files to turn in : Makefile, *.cpp, *.{h, hpp}
-Forbidden functions : None
+Turn-in directory : ex01/<br />
+Files to turn in : Makefile, *.cpp, *.{h, hpp}<br />
+Forbidden functions : None<br />
 
 Welcome to the 80s and their unbelievable technology! Write a program that behaves like a crappy awesome phonebook software.
 
@@ -191,9 +191,9 @@ http://www.cplusplus.com/reference/iomanip/
 
 <h3>Exercise 02: The Job Of Your Dreams</h3>
 
-Turn-in directory : ex02/
-Files to turn in : Makefile, Account.cpp, Account.hpp, tests.cpp
-Forbidden functions : None
+Turn-in directory : ex02/<br />
+Files to turn in : Makefile, Account.cpp, Account.hpp, tests.cpp<br />
+Forbidden functions : None<br />
 
 ```
 Account.hpp, tests.cpp and the log file are available for download on
@@ -306,9 +306,9 @@ Sin embargo, sigue las reglas obligatorias y no seas holgazán.
 
 <h3>Exercise 00: BraiiiiiiinnnzzzZ</h3>
 
-Turn-in directory : ex00/
-Files to turn in : Makefile, main.cpp, Zombie.{h, hpp}, Zombie.cpp, newZombie.cpp, randomChump.cpp
-Forbidden functions : None
+Turn-in directory : ex00/<br />
+Files to turn in : Makefile, main.cpp, Zombie.{h, hpp}, Zombie.cpp, newZombie.cpp, randomChump.cpp<br />
+Forbidden functions : None<br />
 
 Primero, implemente una clase **Zombie**. Tiene un nombre de atributo privado string.
 Agregue una función miembro void anunciar (void); a la clase Zombi. Los zombis se anuncian de la siguiente manera:
@@ -339,9 +339,9 @@ Los zombis deben ser destruidos cuando ya no los necesites. El destructor debe i
 
 <h3>Exercise 01: Moar brainz!</h3>
 
-Turn-in directory : ex01/
-Files to turn in : Makefile, main.cpp, Zombie.{h, hpp}, Zombie.cpp, zombieHorde.cpp 
-Forbidden functions : None
+Turn-in directory : ex01/<br />
+Files to turn in : Makefile, main.cpp, Zombie.{h, hpp}, Zombie.cpp, zombieHorde.cpp <br />
+Forbidden functions : None<br />
 
 ¡Es hora de crear una **horda de zombis**!
 
@@ -363,9 +363,9 @@ No olvides eliminar todos los zombies y comprobar si hay **pérdidas de memoria*
 
 <h3>Exercise 02: HI THIS IS BRAIN</h3>
 
-Turn-in directory : ex02/ 
-Files to turn in : Makefile, main.cpp
-Forbidden functions : None
+Turn-in directory : ex02/ <br />
+Files to turn in : Makefile, main.cpp<br />
+Forbidden functions : None<br />
 
 Escribe un programa que contenga:
 
@@ -399,9 +399,9 @@ Eso es todo, sin trucos. El objetivo de este ejercicio es desmitificar referenci
 
 <h3>Exercise 03: Unnecessary violence</h3>
 
-Turn-in directory : ex03/
-Files to turn in : Makefile, main.cpp, Weapon.{h, hpp}, Weapon.cpp, HumanA.{h, hpp}, HumanA.cpp, HumanB.{h, hpp}, HumanB.cpp
-Forbidden functions : None
+Turn-in directory : ex03/<br />
+Files to turn in : Makefile, main.cpp, Weapon.{h, hpp}, Weapon.cpp, HumanA.{h, hpp}, HumanA.cpp, HumanB.{h, hpp}, HumanB.cpp<br />
+Forbidden functions : None<br />
 
 Implemente una clase Weapon que tenga:
 
@@ -460,9 +460,9 @@ No olvides comprobar si hay **pérdidas de memoria**.
 
 <h3>Exercise 04: Sed is for losers</h3>
 
-Turn-in directory : ex04/
-Files to turn in : Makefile, main.cpp, *.cpp, *.{h, hpp}
-Forbidden functions : std::string::replace
+Turn-in directory : ex04/<br />
+Files to turn in : Makefile, main.cpp, *.cpp, *.{h, hpp}<br />
+Forbidden functions : std::string::replace<br />
 
 Cree un programa que tome tres parámetros en el siguiente orden: un nombre de archivo y dos strings, s1 y s2.
 
@@ -478,9 +478,9 @@ Por supuesto, maneje entradas y errores inesperados. Debe crear y entregar sus p
 
 <h3>Exercise 05:  Harl 2.0</h3>
 
-Turn-in directory : ex05/
-Files to turn in : Makefile, main.cpp, Harl.{h, hpp}, Harl.cpp
-Forbidden functions : None
+Turn-in directory : ex05/<br />
+Files to turn in : Makefile, main.cpp, Harl.{h, hpp}, Harl.cpp<br />
+Forbidden functions : None<br />
 
 ¿Conoces a Harl? Todos lo hacemos, ¿verdad? En caso de que no lo sepas, encuentra a continuación el tipo de comentarios que hace Harl. Se clasifican por niveles:
 
@@ -523,9 +523,9 @@ Cree y entregue pruebas para demostrar que Harl se queja mucho. Puede utilizar l
 
 <h3>Exercise 06: Harl filter</h3>
 
-Turn-in directory : ex06/
-Files to turn in : Makefile, main.cpp, Harl.{h, hpp}, Harl.cpp
-Forbidden functions : None
+Turn-in directory : ex06/<br />
+Files to turn in : Makefile, main.cpp, Harl.{h, hpp}, Harl.cpp<br />
+Forbidden functions : None<br />
 
 A veces no quieres prestar atención a todo lo que dice Harl. Implementa un sistema para filtrar lo que dice Harl dependiendo de los niveles de registro que quieras escuchar.
 
