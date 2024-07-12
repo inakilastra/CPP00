@@ -16,6 +16,13 @@
 >
 > - :white_check_mark: [Castellano](#evaluación)
 
+<br /><br />
+
+> Desarrollo   
+> - :white_check_mark: [Makefile](#makefile) 
+>
+> - :white_check_mark: [megaphone](#megaphone)
+
 <br /><br /><br /><br />
 
 ## <h2>Subject English</h2>
@@ -1008,4 +1015,100 @@ Una vez más, ya no if/elseif/else, por favor.
 
 <br /><br />
 [:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
+<br /><br />
+
+## Makefile
+
+xx
+
+## Megaphone
+
+```c++
+# **************************************************************************** #
+# VARIABLES                                                                    #
+# NAME: Define el nombre de la biblioteca que se creará.                       #
+NAME = Zombie
+# CC: Especifica el compilador a usar.                                     #
+CC = c++
+# CCFLAGS: Define las opciones del compilador                                  #
+CCFLAGS = -Wall -Wextra -Werror -std=c++98 #-MMD
+# RM: Comando para eliminar archivos.                                          #
+RM = rm -rf
+# SRCS: Lista los archivos fuente que forman parte de la biblioteca.           #
+SRCS = main.cpp ZombieStack.cpp ZombieQueue.cpp
+# OBJS: Lista de objetos (archivos ".o") generados a partir de la compilación  #
+#       de los archivos fuente C++ listados en SRCS.                           #
+OBJS = ${SRCS:.cpp=.o}
+# DEPS: Lista de archivos de dependencia que son necesarios para compilar      #
+#       correctamente los archivos fuente C++ listados en SRCS.                #
+DEPS = ${SRCS:.cpp=.d}
+# ESTILO FUENTE: Definen secuencias de escape ANSI fuente Italica y Negrita    #
+ITALIC = \033[3m
+BOLD =	 \033[1m
+# COLORS: Definen secuencias de escape ANSI para colores en la terminal        #
+DEF_COLOR =     \033[0;39m
+GRAY =          \033[0;90m
+RED =           \033[0;91m
+GREEN =         \033[0;92m
+YELLOW =        \033[0;93m
+BLUE =          \033[0;94m
+MAGENTA =       \033[0;95m
+CYAN =          \033[0;96m
+WHITE =         \033[0;97m
+BLACK =			\033[0;99m
+ORANGE =		\033[38;5;209m
+BROWN =			\033[38;2;184;143;29m
+DARK_GRAY =		\033[38;5;234m
+MID_GRAY =		\033[38;5;245m
+DARK_GREEN =	\033[38;2;75;179;82m
+DARK_YELLOW =	\033[38;5;143m
+# **************************************************************************** #
+
+# **************************************************************************** #
+# REGLAS                                                                       #
+# .DEFAULT_GOAL := all
+# %.o : %.c: Esta regla indica cómo compilar cada archivo fuente (.c)          #
+#            en un archivo objeto (.o).                                        #
+#            La acción @$(CC) $(CCFLAGS) -c -o $@ $< utiliza el compilador gcc #
+#            con las opciones -Wall -Wextra -Werror para compilar el archivo   #
+#            fuente ($<) y generar el archivo objeto ($@).                     #
+%.o: %.cpp
+	@echo "\n${ORANGE} ◎ Compiling → $(ORANGE)$< $(DEF_COLOR)"
+	@$(CC) $(CFLAGS) -c $^ -o $@	
+# $(NAME) : $(OBJS): Esta regla indica que para crear la biblioteca            #
+#           se necesitan los archivos objeto ($(OBJS) y $(OBJSB).              #
+$(NAME): $(OBJS)
+		@${CC} ${CFLAGS} ${SRCS} -o ${NAME}
+		@echo "\n$(ORANGE) Created $(NAME) ✓ $(DEF_COLOR)\n"
+# all: Esta regla es un alias para la regla $(NAME).                           #
+#      Cuando se ejecuta make all, se crea la biblioteca.                      #
+all: $(NAME)
+# archivos de dependencia necesarios                                           #
+-include ${DEPS}
+# clean: Esta regla elimina los archivos objeto (.o)                           #
+#        generados durante la compilación.                                     #
+clean:
+	@${RM} ${OBJS} ${DEPS}
+	@echo "\n${ORANGE} ◎ All objects cleaned ◎$(DEF_COLOR)\n"
+
+# fclean: Esta regla elimina la biblioteca (libft.a)                           #
+#         y los archivos objeto (.o).                                          #
+fclean:
+	@${RM} ${OBJS} ${DEPS} ${NAME}
+	@echo "\n${ORANGE} ◎ All objects and executable cleaned ◎$(DEF_COLOR)\n"
+
+# re: Esta regla es un alias para la secuencia fclean all.                     #
+#     Cuando se ejecuta make re, se limpia la compilación anterior             #
+#     y se crea la biblioteca nuevamente.                                      #
+re: fclean all
+# **************************************************************************** #
+
+# **************************************************************************** #
+# PSEUDO-OBJETIVOS                                                             #
+# PHONY: Indica que all, clean, fclean y re son pseudo-objetivos,              #
+#        no archivos reales.                                                   #
+.PHONY: all clean fclean re
+# **************************************************************************** #
+```
+
 <br /><br />
