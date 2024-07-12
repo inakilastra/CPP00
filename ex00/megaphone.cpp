@@ -1,6 +1,5 @@
-//megaphone
 #include <iostream> 
-#include <string>
+//#include <string>
 
 int main(int argc, char **argv) 
 {

@@ -5,6 +5,7 @@
 <br /><br />
 
 > Subject
+>
 > - :white_check_mark: [English](#subject-english)
 >
 > - :white_check_mark: [Castellano](#subject-castellano)
@@ -12,13 +13,15 @@
 <br /><br />
 
 > Evaluation     
+>
 > - :white_check_mark: [English](#evaluation) 
 >
 > - :white_check_mark: [Castellano](#evaluación)
 
 <br /><br />
 
-> Desarrollo   
+> Ficheros   
+>
 > - :white_check_mark: [Makefile](#makefile) 
 >
 > - :white_check_mark: [megaphone](#megaphone)
@@ -1015,13 +1018,11 @@ Una vez más, ya no if/elseif/else, por favor.
 
 <br /><br />
 [:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
-<br /><br />
+<br /><br /><br /><br />
 
-## Makefile
+## <h2>Ficheros</h2>
 
-xx
-
-## Megaphone
+<h3>Makefile</h3>
 
 ```c++
 # **************************************************************************** #
@@ -1096,7 +1097,12 @@ clean:
 fclean:
 	@${RM} ${OBJS} ${DEPS} ${NAME}
 	@echo "\n${ORANGE} ◎ All objects and executable cleaned ◎$(DEF_COLOR)\n"
-
+    @echo "\n${GREEN} ./megaphone \"shhhhh... I think the students are asleep...\" | cat -e"
+    @echo "${YELLOW} SHHHHH... I THINK THE STUDENTS ARE ASLEEP...\n"
+    @echo "${GREEN}$> ./megaphone Damnit \" ! \" \"Sorry students, I thought this thing was off.\" | cat -e"
+    @echo "${YELLOW} DAMNIT ! SORRY STUDENTS, I THOUGHT THIS THING WAS OFF.\n"
+    @echo "${GREEN}$> ./megaphone | cat -e"
+    @echo "${YELLOW} * LOUD AND UNBEARABLE FEEDBACK NOISE *$(DEF_COLOR)\n"
 # re: Esta regla es un alias para la secuencia fclean all.                     #
 #     Cuando se ejecuta make re, se limpia la compilación anterior             #
 #     y se crea la biblioteca nuevamente.                                      #
@@ -1110,5 +1116,42 @@ re: fclean all
 .PHONY: all clean fclean re
 # **************************************************************************** #
 ```
+<br /><br />
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
+<br /><br />
+
+<h3>Megaphone</h3>
+
+```c++
+#include <iostream> 
+#include <string>
+
+int main(int argc, char **argv) 
+{
+  int   i;
+  int   j;
+
+  i = 1;
+  if (argc == 1) 
+  {
+    std::cout << "* LOUD AND UNBEARABLE FEDDBACK NOISE *" << std::endl;
+    return 1;
+  }
+  while (i < argc)
+  {
+    j = 0;
+    while (argv[i][j] != '\0')
+    {
+        std::cout << (char)toupper(argv[i][j]);
+        j++;
+    }
+    i++;
+  }
+  std::cout << std::endl;
+  return 0;
+}
+```
 
 <br /><br />
+[:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
+<br /><br /><br /><br />

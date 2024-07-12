@@ -17,6 +17,12 @@ packages/
 *.class
 *.out
 
+# Ficheros concretos
+ex00/*.o
+ex00/megaphone
+ex01/*.o
+ex02/*.o
+
 # Directorios de salida de compilación, como es el caso de /bin, /out o /target.
 
 # Archivos generados en tiempo de ejecución como, por ejemplo, .log, .lock o .tmp.
