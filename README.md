@@ -1,26 +1,36 @@
 # CPP00
 
-> [!NOTE] 
+<h1>C++ - Module 00</h1>
+
+<br /><br />
+
 > Subjects
 > - :white_check_mark: [English](#subjects-english)
+>
 > - :white_check_mark: [Castellano](#subjects-castellano)
 
-> [!NOTE] 
+<br /><br />
+
 > Evaluation     
 > - :white_check_mark: [English](#evaluation) 
+>
 > - :white_check_mark: [Castellano](#evaluación)
 
-## Subjects English
+<br /><br /><br /><br />
 
-### General rules
+## <h2>Subjects English</h2>
 
-#### Compiling
+<h3>General rules</h3>
+
+**Compiling**
 
 - Compile your code with c++ and the flags -Wall -Wextra -Werror
 
 - Your code should still compile if you add the flag -std=c++98
 
-##### Formatting and naming conventions
+<br /><br />
+
+**Formatting and naming conventions**
 
 - The exercise directories will be named this way: ex00, ex01, ... , exn
 
@@ -33,7 +43,9 @@ ClassName.hpp/ClassName.h, ClassName.cpp, or ClassName.tpp. Then, if you have a 
 
 - Goodbye Norminette! No coding style is enforced in the C++ modules. You can follow your favorite one. But keep in mind that a code your peer-evaluators can’t understand is a code they can’t grade. Do your best to write a clean and readable code.
 
-##### Allowed/Forbidden
+<br /><br />
+
+**Allowed/Forbidden**
 
 You are not coding in C anymore. Time to C++! Therefore:
 
@@ -45,7 +57,9 @@ You are not coding in C anymore. Time to C++! Therefore:
 
 - **You are allowed to use the STL in the Module 08 and 09 only**. That means: no **Containers** (vector/list/map/and so forth) and no **Algorithms** (anything that requires to include the <algorithm> header) until then. Otherwise, your grade will be -42.
 
-##### A few design requirements
+<br /><br />
+
+**A few design requirements**
 
 - Memory leakage occurs in C++ too. When you allocate memory (by using the new keyword), you must avoid **memory leaks**.
 
@@ -55,7 +69,9 @@ You are not coding in C anymore. Time to C++! Therefore:
 
 - You should be able to use each of your headers independently from others. Thus, they must include all the dependencies they need. However, you must avoid the problem of double inclusion by adding **include guards**. Otherwise, your grade will be 0.
 
-##### Read me
+<br /><br />
+
+**Read me**
 
 - You can add some additional files if you need to (i.e., to split your code). As these assignments are not verified by a program, feel free to do so as long as you turn in the mandatory files.
 
@@ -77,7 +93,11 @@ You would miss a lot of useful information! Do not hesitate to read about
 theoretical concepts.
 ```
 
-### Exercise 00: Megaphone
+<br /><br />
+[**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br />
+
+<h3>Exercise 00: Megaphone</h3>
 
 Turn-in directory : ex00/
 Files to turn in : Makefile, megaphone.cpp
@@ -99,7 +119,11 @@ $>
 Solve the exercises in a C++ manner.
 ```
 
-### Exercise 01: My Awesome PhoneBook
+<br /><br />
+[**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br />
+
+<h3>Exercise 01: My Awesome PhoneBook</h3>
 
 Turn-in directory : ex01/
 Files to turn in : Makefile, *.cpp, *.{h, hpp}
@@ -109,7 +133,7 @@ Welcome to the 80s and their unbelievable technology! Write a program that behav
 
 You have to implement two classes:
 
-#### PhoneBook
+**PhoneBook**
 
 - It has an array of contacts.
 
@@ -117,7 +141,7 @@ You have to implement two classes:
 
 - Please note that dynamic allocation is forbidden.
 
-#### Contact
+**Contact**
 
 - Stands for a phonebook contact.
 
@@ -129,7 +153,7 @@ Don’t forget to watch the intranet videos.
 
 On program start-up, the phonebook is empty and the user is prompted to enter one of three commands. The program only accepts ADD, SEARCH and EXIT.
 
-#### ADD: save a new contact
+**ADD: save a new contact**
 
 - If the user enters this command, they are prompted to input the information
 of the new contact one field at a time. Once all the fields have been completed, add the contact to the phonebook.
@@ -137,7 +161,7 @@ of the new contact one field at a time. Once all the fields have been completed,
 - The contact fields are: first name, last name, nickname, phone number, and
 darkest secret. A saved contact can’t have empty fields.
 
-#### SEARCH: display a specific contact
+**SEARCH: display a specific contact**
 
 - Display the saved contacts as a list of **4 columns**: index, first name, last name and nickname.
 
@@ -145,11 +169,11 @@ darkest secret. A saved contact can’t have empty fields.
 
 - Then, prompt the user again for the index of the entry to display. If the index is out of range or wrong, define a relevant behavior. Otherwise, display the contact information, one field per line.
 
-#### EXIT
+**EXIT**
 
 - The program quits and the contacts are lost forever!
 
-#### Any other input is discarded.
+**Any other input is discarded.**
 
 Once a command has been correctly executed, the program waits for another one. It stops when the user inputs EXIT.
 
@@ -160,7 +184,12 @@ http://www.cplusplus.com/reference/string/string/ and of course
 http://www.cplusplus.com/reference/iomanip/
 ```
 
-### Exercise 02: The Job Of Your Dreams
+
+<br /><br />
+[**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br />
+
+<h3>Exercise 02: The Job Of Your Dreams</h3>
 
 Turn-in directory : ex02/
 Files to turn in : Makefile, Account.cpp, Account.hpp, tests.cpp
@@ -191,25 +220,25 @@ a reverse order.
 You can pass this module without doing exercise 02.
 ```
 
-### Submission and peer-evaluation
+**Submission and peer-evaluation**
 
 Turn in your assignment in your Git repository as usual. Only the work inside your repository will be evaluated during the defense. Don’t hesitate to double check the names of your files to ensure they are correct.
 
-
+<br /><br />
 [**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br /><br /><br />
 
+## <h2>Subjects Castellano</h2>
 
-## Subjects Castellano
+<h3>Reglas generales</h3>
 
-### Reglas generales
-
-#### Compilando
+**Compilando**
 
 - Compila tu código con c++ y los flags -Wall -Wextra -Werror
 
 - Su código aún debería compilarse si agrega el flag -std=c++98
 
-##### Convenciones de formato y nomenclatura
+**Convenciones de formato y nomenclatura**
 
 - Los directorios de ejercicios se denominarán de esta forma: ex00, ex01, ... , exn
 
@@ -222,7 +251,9 @@ ClassName.hpp/ClassName.h, ClassName.cpp o ClassName.tpp. Luego, si tiene un arc
 
 - ¡Adiós Norminette! No se aplica ningún estilo de codificación en los módulos de C++. Puedes seguir tu favorito. Pero tenga en cuenta que un código que sus pares evaluadores no pueden entender es un código que no pueden calificar. Haga todo lo posible para escribir un código limpio y legible.
 
-##### Permitido/Prohibido
+<br /><br />
+
+**Permitido/Prohibido**
 
 Ya no estás codificando en C. ¡Es hora de C++! Por lo tanto:
 
@@ -234,7 +265,9 @@ Ya no estás codificando en C. ¡Es hora de C++! Por lo tanto:
 
 - **Puedes usar el STL solo en los Módulos 08 y 09**. Eso significa: no hay **Contenedores** (vector/lista/mapa/etc.) ni **Algoritmos** (cualquier cosa que requiera incluir el encabezado <algoritmo>) hasta entonces. En caso contrario, tu nota será -42.
 
-##### Algunos requisitos de diseño
+<br /><br />
+
+**Algunos requisitos de diseño**
 
 - La pérdida de memoria también ocurre en C++. Cuando asigna memoria (usando la nueva palabra clave), debe evitar **pérdidas de memoria**.
 
@@ -244,7 +277,9 @@ Ya no estás codificando en C. ¡Es hora de C++! Por lo tanto:
 
 - Deberías poder utilizar cada uno de tus encabezados independientemente de los demás. Por tanto, deben incluir todas las dependencias que necesiten. Sin embargo, debes evitar el problema de la doble inclusión agregando **include guards**. En caso contrario su calificación será 0.
 
-##### Léeme
+<br /><br />
+
+**Léeme**
 
 - Puede agregar algunos archivos adicionales si es necesario (es decir, dividir su código). Como estas asignaciones no están verificadas por un programa, no dude en hacerlo siempre que entregue los archivos obligatorios.
 
@@ -265,124 +300,267 @@ Sin embargo, sigue las reglas obligatorias y no seas holgazán.
 ¡Te perderías mucha información útil! No dudes en leer sobre conceptos teóricos.
 ```
 
-### Exercise 00: Megaphone
+<br /><br />
+[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br />
+
+<h3>Exercise 00: BraiiiiiiinnnzzzZ</h3>
 
 Turn-in directory : ex00/
-Files to turn in : Makefile, megaphone.cpp
+Files to turn in : Makefile, main.cpp, Zombie.{h, hpp}, Zombie.cpp, newZombie.cpp, randomChump.cpp
 Forbidden functions : None
 
-Sólo para asegurarse de que todos estén despiertos, escriba un programa que se comporte de la siguiente manera:
+Primero, implemente una clase **Zombie**. Tiene un nombre de atributo privado string.
+Agregue una función miembro void anunciar (void); a la clase Zombi. Los zombis se anuncian de la siguiente manera:
 
-```
-$>./megaphone "shhhhh... I think the students are asleep..."
-SHHHHH... I THINK THE STUDENTS ARE ASLEEP...
-$>./megaphone Damnit " ! " "Sorry students, I thought this thing was off."
-DAMNIT ! SORRY STUDENTS, I THOUGHT THIS THING WAS OFF.
-$>./megaphone
-* LOUD AND UNBEARABLE FEEDBACK NOISE *
-$>
-```
+<name>: BraiiiiiiinnnzzzZ...
 
-```
-Resuelve los ejercicios en forma C++.
-```
+No imprima los corchetes angulares (< y >). Para un zombie llamado Foo, el mensaje sería:
 
-### Exercise 01: My Awesome PhoneBook
+Foo: BraiiiiiiinnnzzzZ...
+
+Luego, implemente las dos funciones siguientes:
+
+- Zombie* nuevoZombie( std::string name );
+
+Crea un zombie, le pone un nombre y lo devuelve para que puedas usarlo fuera de la función alcance.
+
+- void randomChump( std::string name );
+
+Crea un zombie, le pones un nombre y el zombie se anuncia.
+
+Ahora bien, ¿cuál es el objetivo real del ejercicio? Tienes que determinar en qué caso es mejor asignar los zombies en la pila o en el montón.
+
+Los zombis deben ser destruidos cuando ya no los necesites. El destructor debe imprimir un mensaje con el nombre del zombie para fines de depuración.
+
+<br /><br />
+[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br />
+
+<h3>Exercise 01: Moar brainz!</h3>
 
 Turn-in directory : ex01/
-Files to turn in : Makefile, *.cpp, *.{h, hpp}
+Files to turn in : Makefile, main.cpp, Zombie.{h, hpp}, Zombie.cpp, zombieHorde.cpp 
 Forbidden functions : None
 
-¡Bienvenidos a los años 80 y su increíble tecnología! Escribe un programa que se comporte como un increíble software de agenda telefónica.
+¡Es hora de crear una **horda de zombis**!
 
-Tienes que implementar dos clases:
+Implemente la siguiente función en el archivo apropiado:
 
-#### PhoneBook
+> Zombie* zombieHorde( int N, std::string name );
 
-- Tiene una variedad de contactos.
+Debe asignar N objetos Zombie en una única asignación. Luego, tiene que inicializar los zombies, dándole a cada uno de ellos el nombre pasado como parámetro. La función devuelve un puntero al primer zombie.
 
-- Puede almacenar un máximo de **8 contactos**. Si el usuario intenta agregar un noveno contacto, sustituir el más antiguo por el nuevo.
+Implemente sus propias pruebas para garantizar que su función zombieHorde() funcione como se esperaba.
 
-- Tenga en cuenta que la asignación dinámica está prohibida.
+Intenta llamar a anunciar() para cada uno de los zombies.
 
-#### Contact
+No olvides eliminar todos los zombies y comprobar si hay **pérdidas de memoria**.
 
-- Representa un contacto de la agenda telefónica.
+<br /><br />
+[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br />
 
-En su código, se debe crear una instancia de la guía telefónica como una instancia de la clase **PhoneBook**. Lo mismo para los contactos. Cada uno de ellos debe ser instanciado como una instancia de la clase **Contact**. Eres libre de diseñar las clases como quieras, pero ten en cuenta que todo lo que siempre se usará dentro de una clase es privado y todo lo que se puede usar fuera de una clase es público.
+<h3>Exercise 02: HI THIS IS BRAIN</h3>
 
-```
-No olvides ver los vídeos de la intranet.
-```
-
-Al iniciar el programa, la agenda está vacía y se le solicita al usuario que ingrese uno de tres comandos. El programa sólo acepta ADD, SEARCH y EXIT.
-
-#### ADD: guardar un nuevo contacto
-
-- Si el usuario ingresa este comando, se le solicita que ingrese la información del nuevo contacto un campo a la vez. Una vez que se hayan completado todos los campos, agregue el contacto a la agenda.
-
-- Los campos de contacto son: nombre, apellido, apodo, número de teléfono y
-secreto más oscuro. Un contacto guardado no puede tener campos vacíos.
-
-#### SEARCH: muestra un contacto específico
-
-- Muestra los contactos guardados como una lista de **4 columnas**: índice, nombre, apellido nombre y apodo.
-
-- Cada columna debe tener **10 caracteres** de ancho. Un carácter de barra vertical ('|') separa a ellos. El texto debe estar alineado a la derecha. Si el texto es más largo que la columna, debe truncarse y el último carácter visualizable debe reemplazarse por un punto ('.').
-
-- Luego, solicite nuevamente al usuario que muestre el índice de la entrada. Si el índice está fuera de rango o es incorrecto, defina un comportamiento relevante. De lo contrario, muestre la información de contacto, un campo por línea.
-
-#### EXIT
-
-- ¡El programa se cierra y los contactos se pierden para siempre!
-
-#### Cualquier otra entrada se descarta.
-
-Una vez que un comando se ha ejecutado correctamente, el programa espera otro. Se detiene cuando el usuario ingresa EXIT.
-
-Dale un nombre relevante a tu ejecutable.
-
-```
-http://www.cplusplus.com/reference/string/string/ and of course
-http://www.cplusplus.com/reference/iomanip/
-```
-
-### Exercise 02: El trabajo de tus sueños
-
-Turn-in directory : ex02/
-Files to turn in : Makefile, Account.cpp, Account.hpp, tests.cpp
+Turn-in directory : ex02/ 
+Files to turn in : Makefile, main.cpp
 Forbidden functions : None
 
+Escribe un programa que contenga:
+
+- Una variable string inicializada como "HI THIS IS BRAIN".
+
+- stringPTR: un puntero al string.
+
+- stringREF: una referencia al string.
+
+Su programa tiene que imprimir:
+
+- La dirección de memoria de la variable de string.
+
+- La dirección de memoria mantenida por stringPTR.
+
+- La dirección de memoria mantenida por stringREF.
+
+Y luego:
+
+- El valor de la variable de string.
+
+- El valor señalado por stringPTR.
+
+- El valor señalado por stringREF.
+
+Eso es todo, sin trucos. El objetivo de este ejercicio es desmitificar referencias que pueden parecer completamente nuevas. Aunque existen algunas pequeñas diferencias, esta es otra sintaxis para algo que ya hace: manipulación de direcciones.
+
+<br /><br />
+[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br />
+
+<h3>Exercise 03: Unnecessary violence</h3>
+
+Turn-in directory : ex03/
+Files to turn in : Makefile, main.cpp, Weapon.{h, hpp}, Weapon.cpp, HumanA.{h, hpp}, HumanA.cpp, HumanB.{h, hpp}, HumanB.cpp
+Forbidden functions : None
+
+Implemente una clase Weapon que tenga:
+
+- Un tipo de atributo privado, que es un string.
+
+- Una función miembro getType() que devuelve una referencia constante al tipo.
+
+- Una función miembro setType() que establece el tipo usando el nuevo pasado como parámetro.
+
+Ahora, crea dos clases: HumanA y HumanB. Ambos tienen un arma y un nombre. También tienen una función miembro attack() que muestra (por supuesto, sin los corchetes angulares):
+
+<name> ataca con su <weapon type>
+
+HumanA y HumanB son casi iguales excepto por estos dos pequeños detalles:
+
+- Mientras HumanA toma el Arma en su constructor, HumanB no.
+
+- Es posible que HumanB no siempre tenga un arma, mientras que HumanA siempre estará armado.
+
+Si su implementación es correcta, ejecutar el siguiente código imprimirá un ataque con un "garrote con púas crudo" y luego un segundo ataque con "algún otro tipo de garrote" para ambos casos de prueba:
+
+```c++
+int main()
+{
+    {
+        Weapon club = Weapon("crude spiked club");
+        
+        HumanA bob("Bob", club);
+        bob.attack();
+        club.setType("some other type of club");
+        bob.attack();
+    }
+    {
+        Weapon club = Weapon("crude spiked club");
+
+        HumanB jim("Jim");
+        jim.setWeapon(club);
+        jim.attack();
+        club.setType("some other type of club");
+        jim.attack();
+    }
+
+    return 0;
+}
 ```
-Account.hpp, tests.cpp y el archivo de registro están disponibles para descargar en la página de intranet del módulo.
-```
 
-Hoy es su primer día en GlobalBanksters United. Después de pasar con éxito las pruebas de reclutamiento (gracias a algunos trucos de Microsoft Office que le mostró un amigo), se unió al equipo de desarrollo. También sabe que el reclutador quedó sorprendido por la rapidez con la que instaló Adobe Reader. Ese pequeño extra marcó la diferencia y te ayudó a derrotar a todos tus oponentes (también conocidos como los otros solicitantes): ¡lo lograste!
-
-De todos modos, tu jefe te acaba de dar trabajo que hacer. Tu primera tarea es recrear un archivo perdido. Algo salió mal y un archivo fuente se eliminó por error. Desafortunadamente, tus colegas no saben qué es Git y usan llaves USB para compartir código. En este punto, tendría sentido abandonar este lugar ahora mismo. Sin embargo, decides quedarte. ¡Desafío aceptado!
-
-Tus compañeros desarrolladores te dan un montón de archivos. La compilación de tests.cpp revela que el archivo que falta es Account.cpp. Por suerte, se guardó el archivo de encabezado Account.hpp. También hay un archivo de registro. Quizás puedas usarlo para comprender cómo se implementó la clase Cuenta.
-
-Comienza a recrear el archivo Account.cpp. En sólo unos minutos, codificarás unas pocas líneas de C++ puro e increíble. Después de un par de compilaciones fallidas, su programa pasa las pruebas. Su resultado coincide perfectamente con el guardado en el archivo de registro (**excepto por las marcas de tiempo** que obviamente diferirán ya que las pruebas guardadas en el archivo de registro se ejecutaron antes de que lo contrataran).
-
-¡Maldita sea, eres impresionante!
+No olvides comprobar si hay **pérdidas de memoria**.
 
 ```
-El orden en el que se llaman los destructores puede diferir dependiendo de
-su compilador/sistema operativo. Entonces tus destructores pueden ser llamados un orden inverso.
+¿En qué caso crees que sería mejor utilizar un puntero a Weapon? ¿Y una referencia a Weapon? ¿Por qué? Piénselo antes de comenzar este ejercicio.
 ```
 
+<br /><br />
+[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br />
+
+<h3>Exercise 04: Sed is for losers</h3>
+
+Turn-in directory : ex04/
+Files to turn in : Makefile, main.cpp, *.cpp, *.{h, hpp}
+Forbidden functions : std::string::replace
+
+Cree un programa que tome tres parámetros en el siguiente orden: un nombre de archivo y dos strings, s1 y s2.
+
+Abrirá el archivo <filenameo> y copiará su contenido en un nuevo archivo <filename>.replace, reemplazando cada aparición de s1 con s2.
+
+El uso de funciones de manipulación de archivos C está prohibido y se considerará trampa. Todas las funciones miembro de la clase std::string están permitidas, excepto reemplazar. ¡Utilízalos sabiamente!
+
+Por supuesto, maneje entradas y errores inesperados. Debe crear y entregar sus propias pruebas para garantizar que su programa funcione como se espera.
+
+<br /><br />
+[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br />
+
+<h3>Exercise 05:  Harl 2.0</h3>
+
+Turn-in directory : ex05/
+Files to turn in : Makefile, main.cpp, Harl.{h, hpp}, Harl.cpp
+Forbidden functions : None
+
+¿Conoces a Harl? Todos lo hacemos, ¿verdad? En caso de que no lo sepas, encuentra a continuación el tipo de comentarios que hace Harl. Se clasifican por niveles:
+
+- Nivel **"DEBUG"**: los mensajes de depuración contienen información contextual. Se utilizan principalmente para el diagnóstico de problemas.
+Ejemplo: "Me encanta tener tocino extra para mi hamburguesa 7XL con doble queso, triple pepinillo y ketchup especial. ¡Realmente me encanta!"
+
+- Nivel **"INFO"**: Estos mensajes contienen información extensa. Son útiles para rastrear la ejecución de programas en un entorno de producción.
+Ejemplo: "No puedo creer que agregar tocino adicional cueste más dinero. ¡No pusiste suficiente tocino en mi hamburguesa! Si lo hicieras, ¡no estaría pidiendo más!".
+
+- Nivel **"WARNING"**: los mensajes de advertencia indican un problema potencial en el sistema.
+Sin embargo, se puede manejar o ignorar.
+Ejemplo: "Creo que merezco tener un poco de tocino extra gratis. He estado viniendo durante años mientras que tú empezaste a trabajar aquí desde el mes pasado".
+
+• Nivel **"ERROR"**: estos mensajes indican que se ha producido un error irrecuperable.
+Este suele ser un problema crítico que requiere intervención manual.
+Ejemplo: "¡Esto es inaceptable! Quiero hablar con el gerente ahora".
+
+Vas a automatizar **Harl**. No será difícil ya que siempre dice las mismas cosas. Tienes que crear una clase Harl con las siguientes funciones de miembros privados:
+
+- void debug( void );
+
+- void info( void );
+
+- void warning( void );
+
+- void error( void );
+
+**Harl** también tiene una función miembro pública que llama a las cuatro funciones miembro anteriores.
+dependiendo del nivel pasado como parámetro:
+
+> void complain( std::string level );
+
+El objetivo de este ejercicio es utilizar **punteros a funciones miembro**. Esto no es una sugerencia. Harl tiene que quejarse sin usar un bosque de if/else if/else. ¡No lo piensa dos veces!
+
+Cree y entregue pruebas para demostrar que Harl se queja mucho. Puede utilizar los ejemplos de comentarios enumerados anteriormente en el asunto o optar por utilizar sus propios comentarios.
+
+<br /><br />
+[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br />
+
+<h3>Exercise 06: Harl filter</h3>
+
+Turn-in directory : ex06/
+Files to turn in : Makefile, main.cpp, Harl.{h, hpp}, Harl.cpp
+Forbidden functions : None
+
+A veces no quieres prestar atención a todo lo que dice Harl. Implementa un sistema para filtrar lo que dice Harl dependiendo de los niveles de registro que quieras escuchar.
+
+Cree un programa que tome como parámetro uno de los cuatro niveles. Mostrará todos los mensajes de este nivel y superiores. Por ejemplo:
+
 ```
-Puedes aprobar este módulo sin realizar el ejercicio 02.
+$> ./harlFilter "WARNING"
+[ WARNING ]
+Creo que merezco tener un poco de tocino extra gratis.
+Llevo viniendo desde hace años mientras que tú empezaste a trabajar aquí desde el mes pasado.
+
+[ ERROR ]
+Esto es inaceptable, quiero hablar con el gerente ahora.
+
+$> ./harlFilter "No estoy seguro de lo cansado que estoy hoy..."
+[Probablemente quejándose de problemas insignificantes]
 ```
 
+Aunque hay varias maneras de lidiar con Harl, una de las más efectivas es APAGARLO.
 
-[**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
+Asigne el nombre harlFilter a su ejecutable.
 
+Debe utilizar, y tal vez descubrir, la declaración de cambio en este ejercicio.
 
-## Evaluation
+```
+Puedes aprobar este módulo sin realizar el ejercicio 06.
+```
 
-### Guidelines
+<br /><br />
+[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br /><br /><br />
+
+## <h2>Evaluation</h2>
+
+<h3>Guidelines</h3>
 
 You must compile with clang++, with -Wall -Wextra -Werror 
 As a reminder, this project is in C++98.
@@ -404,64 +582,208 @@ Any of these means that you must flag the project as Forbidden Function:
 
 - Use of an external library, or C++20 features
 
-### Ex00: Megaphone
+<h3>Ex00: BraiiiiiiinnnzzzZ</h3>
 
-This exercise is a warm-up intended to discover basic C++ i/o streams.
-Is it working?
+The goal of this exercise is to understand how to allocate memory in C++.
 
-This exercise is a to_upper program with a specific behavior when run without any parameter.
+**Makefile and tests**
 
-### Ex01: My Awesome Phonebook
+There is a Makefile that compiles using the appropriate flags.
 
-This exercise is a first approach to writing a simple class and a small interactive program that uses it. If the exercise is not fully functional, grade what can be graded.
-Error handling
+There is at least a main to test the exercise.
 
-This exercise requires some error handling but behaviors are not specified in the subject quitting or replacing older contact is ok. Segfault is not :D !
+<br /><br />
 
-#### The EXIT command
+**Zombie Class**
 
-Rate the EXIT command as described in the subject.
+There is a Zombie Class.
+It has a private name attribute.
+It has at least a constructor.
+It has a member function announce( void ) that prints: ": BraiiiiiiinnnzzzZ..."
+The destructor prints a debug message that includes the name of the zombie.
 
-#### Visibility
+<br /><br />
 
-The attributes of the class Contact should be private and the class should expose the corresponding accessors.
-Also check that anything that should always be used inside a class (not only  in the Contact class) is private and that anything that can be used outside a class is public. Beginners tend to put everything in public, that's not what you want here!
+**newZombie**
 
-#### The Contact and Phonebook class
+There is a newZombie() function prototyped as: [ Zombie* newZombie( std::string name ); ]
+It should allocate a Zombie on the heap and return it.
+Ideally, it should call the constructor that takes a string and initializes the name.
+The exercise should be marked as correct if the Zombie can announce itself with the name passed to the function.
+There are tests to prove everything works.
+The zombie is deleted correctly before the end of the program.
 
-The code must include a Contact class, or whatever name the student used.
-This class must contain attributes for the different fields.
-The code must contain a Phonebook class with an array of contact inside.
+<br /><br />
 
-#### Read/Eval loop
+**randomChump**
 
-The program must present a read/eval loop at some point: reading the input, evaluating it, then loop until an EXIT command appears in input.
-This reading should be in C++ style! (std::cin)
+There is a randomChump() function prototyped as: [ void randomChump( std::string name ); ]
+It should create a Zombie on the stack, and make it announce itself.
+Ideally the zombie should be allocated on the stack (so implicitly deleted at the end of the function). It can also be allocated on the heap and then explicitly deleted.
+The student must justify their choices.
+There are tests to prove everything works.
 
-#### The ADD command
+<br /><br />
 
-Rate the ADD command as described in the subject.
+<h3>Ex01: Moar brainz!</h3>
 
-#### The SEARCH command
+The goal of this exercise is to allocate a number of objects at the same time using new[], initialize them, and to properly delete them.
 
-Rate the SEARCH command as described in the subject. A minor divergence in the expected formating is not relevant.
-This part aims to use C++ iomanips and that's what you should focus on.
+<br /><br />
 
-### Ex02: The Job Of Your Dreams
+**Makefile and tests**
 
-This exercise intends to extract information and directions from useless noise, and to insert new code into an existing context.
+There is a Makefile that compiles using the appropriate flags.
+There is at least a main to test the exercise.
 
-#### Did you save the day?
+<br /><br />
 
-This exercise is pretty straight forward. Either Account.cpp works, either it does not. Compare the program's output and the provided log. Any difference apart from the timestamp means something is not ok for this exercise.
+**zombieHorde**
 
+The Zombie Class has a default constructor.
+There is a zombieHorde() function prototyped as: [ Zombie* zombieHorde( int N, std::string name ); ]
+It allocates N zombies on the heap explicitly using new[].
+After the allocation, there is an initialization of the objects to set their name.
+It returns a pointer to the first zombie.
+There are enough tests in the main to prove the previous points.
+Ex: calling announce() on all the zombies.
+Last, all the zombies should be deleted at the same time in the main.
 
+<br /><br />
 [**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br />
 
+<h3>Ex02: HI THIS IS BRAIN</h3>
 
-## Evaluación
+Demystify references! Demystify references! Demystify references! Demystify references! Demystify references! Demystify references! Demystify references! Demystify references! Demystify references! Demystify references! Demystify references! Demystify references!
 
-### Pautas
+<br /><br />
+
+**Makefile and tests**
+
+There is a Makefile that compiles using the appropriate flags.
+There is at least a main to test the exercise.
+
+<br /><br />
+
+**HI THIS IS BRAIN**
+
+There is a string containing "HI THIS IS BRAIN".
+stringPTR is a pointer to the string.
+stringREF is a reference to the string.
+The address of the string is displayed using the string variable, the stringPTR and the stringREF.
+The string is displayed using the stringPTR and the stringREF.
+
+<br /><br />
+[**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br />
+
+<h3>Ex03: Unnecessary violence</h3>
+
+The objective of this exercise is to understand that pointers and references present some small differences that make them be more appropriated depending on the use and the lifecycle of the object used.
+
+<br /><br />
+
+**Makefile and tests**
+
+There is a Makefile that compiles using the appropriate flags.
+There is at least a main to test the exercise.
+
+<br /><br />
+
+**Weapon**
+
+There is a Weapon class that has a type string, a getType() and a setType().
+The getType() function returns a const reference to the type string.
+
+<br /><br />
+
+**HumanA and HumanB**
+
+HumanA can have a reference or a pointer to the Weapon.
+Ideally, it should be implemented as a reference, since the Weapon exists from creation until destruction, and never changes.
+HumanB must have a pointer to a Weapon since the field is not set at creation time, and the weapon can be NULL.
+
+<br /><br />
+[**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br />
+
+<h3>Ex04: Sed is for losers</h3>
+
+Thanks to this exercise, the student should have gotten familiar with ifstream and ofstream.
+
+<br /><br />
+
+**Makefile and tests**
+
+There is a Makefile that compiles using the appropriate flags.
+There is at least a main to test the exercise.
+
+<br /><br />
+
+**ex04**
+
+There is a function replace (or other name) that works as specified in the subject.
+The error management is efficient: try to pass a file that does not exist, change the permissions, pass it empty, etc.
+If you can find an error that isn't handled, and isn't completely esoteric, no points for this exercise.
+The program must read from the file using an ifstream or equivalent, and write using an ofstream or equivalent.
+The implementation of the function should be done using functions from std::string, no by reading the string character by character.
+This is not C anymore!
+
+<br /><br />
+[**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br />
+
+<h3>Ex05: Karen 2.0</h3>
+
+The goal of this exercise is to use pointers to class member functions. Also, this is the opportunity to discover to the different log levels.
+
+<br /><br />
+
+**Makefile and tests**
+
+There is a Makefile that compiles using the appropriate flags.
+There is at least a main to test the exercise.
+
+<br /><br />
+
+**Our beloved Karen**
+
+There is a class Karen with at least the 5 functions required in the subject.
+The function complain() executes the other functions using a pointer to them.
+Ideally, the student should have implemented a way of matching the different strings corresponding to the log level to the pointers of the corresponding member function.
+If the implementation is different but the exercise works you should mark it as valid. The only thing that is not allowed is to have a if/elseif/else.
+The student could have chosen to change the message Karen displays or to display the examples given in the subject, both are valid.
+
+<br /><br />
+[**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br />
+
+<h3>Ex06: Karen-filter</h3>
+
+Now that you are experienced coders, you should use new instruction types, statements, loops, etc. The goal of this last exercise is to make you discover the switch statement.
+
+<br /><br />
+
+**Makefile and tests**
+
+There is a Makefile that compiles using the appropriate flags.
+There is at least a main to test the exercise.
+
+<br /><br />
+
+**Switching Karen Off**
+
+The program karenFilter takes as argument any of the log levels ("DEBUG", "INFO",  "WARNING" or "ERROR"). It should then display just the messages that are at the same level or above (DEBUG < INFO < WARNING < ERROR). This must be implemented using a switch statement with a default case.
+Once again, no if/elseif/else anymore please.
+
+<br /><br />
+[**⬆⬆⬆⬆⬆⬆ top ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br /><br /><br />
+
+## <h2>Evaluación</h2>
+
+<h3>Pautas</h3>
 
 Debes compilar con clang++, con -Wall -Wextra -Werror
 Como recordatorio, este proyecto está en C++98.
@@ -475,68 +797,215 @@ Cualquiera de estos significa que no debes calificar el ejercicio en cuestión:
 
 Cualquiera de estos significa que debes marcar el proyecto como Función Prohibida:
 
-- Uso de una función "C" (*alloc, *printf, free)
+- Uso de una función "C" (*alloc, *printf, gratis)
 
 - Uso de una función no permitida en el tema.
 
-- Uso de "usar namespace" o "friend"
+- Uso de "usar espacio de nombres" o "amigo"
 
 - Uso de una biblioteca externa o funciones de C++20
 
-### Ex00: Megáfono
-
-Este ejercicio es un calentamiento destinado a descubrir flujos de E/S básicos de C++.
-¿Está funcionando?
-
-Este ejercicio es un programa to_upper con un comportamiento específico cuando se ejecuta sin ningún parámetro.
-
-### Ex01: Mi impresionante agenda telefónica
-
-Este ejercicio es una primera aproximación a la redacción de una clase sencilla y un pequeño programa interactivo que la utilice. Si el ejercicio no es completamente funcional, califique lo que se pueda calificar.
-
-#### Manejo de errores
-
-Este ejercicio requiere cierto manejo de errores, pero los comportamientos no se especifican en el tema. Salir o reemplazar un contacto anterior está bien. Segfault no es :D!
-
-#### El comando EXIT
-
-Califica el comando EXIT como se describe en el subject.
-
-#### Visibilidad
-
-Los atributos de la clase Contact deben ser privados y la clase debe exponer los accesores correspondientes.
-También verifique que todo lo que siempre deba usarse dentro de una clase (no solo en la clase Contact) sea privado y que todo lo que pueda ser utilizado fuera de una clase es público. Los principiantes tienden a poner todo en público, ¡eso no es lo que quieres aquí!
-
-#### La clase Contact y la clase Phonebook
-
-El código debe incluir una clase Contact o cualquier nombre que haya utilizado el estudiante.
-Esta clase debe contener atributos para los diferentes campos.
-El código debe contener una clase Phonebook con una serie de contactos en su interior.
-
-#### Bucle de lectura/evaluación
-
-El programa debe presentar un bucle de lectura/evaluación en algún momento: leer la entrada, evaluarla y luego realizar un bucle hasta que aparezca un comando EXIT en la entrada.
-¡Esta lectura debe estar en estilo C++! (std::cin)
-
-#### El comando ADD
-
-Califique el comando ADD como se describe en el subject.
-
-#### El comando SEARCH
-
-Califique el comando SEARCH como se describe en el subject. Una pequeña divergencia en el formato esperado no es relevante.
-Esta parte tiene como objetivo utilizar iomanips de C++ y eso es en lo que debes concentrarte.
-
-### Ex02: El trabajo de tus sueños
-
-Este ejercicio pretende extraer información e instrucciones de ruido inútil e insertar código nuevo en un contexto existente.
-
-#### ¿Salvaste el día?
-
-Este ejercicio es bastante sencillo. 
-O Account.cpp funciona o no. 
-Compare la salida del programa y el registro proporcionado. 
-Cualquier diferencia aparte de la marca de tiempo significa que algo no está bien para este ejercicio.
-
-
+<br /><br />
 [**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br />
+
+<h3>Ex00: BraiiiiiiinnnzzzZ</h3>
+
+El objetivo de este ejercicio es comprender cómo asignar memoria en C++.
+
+<br /><br />
+
+**Makefile y pruebas**
+
+Hay un Makefile que se compila usando los flags apropiados.
+
+Hay al menos un main para probar el ejercicio.
+
+<br /><br />
+
+**Zombie Class**
+
+Hay una clase zombie.
+Tiene un atributo de nombre privado.
+Tiene al menos un constructor.
+Tiene una función miembro anunciar (void) que imprime: ": BraiiiiiiinnnzzzZ..."
+El destructor imprime un mensaje de depuración que incluye el nombre del zombie.
+
+<br /><br />
+
+**newZombie**
+
+Hay una función newZombie() cuyo prototipo es: [ Zombie* newZombie( std::string name ); ]
+Debería asignar un zombi al montón y devolverlo.
+Idealmente, debería llamar al constructor que toma un string e inicializa el nombre.
+El ejercicio debe marcarse como correcto si el Zombie puede anunciarse con el nombre pasado a la función.
+Hay pruebas para demostrar que todo funciona.
+El zombie se elimina correctamente antes de que finalice el programa.
+
+<br /><br />
+
+**randomChump**
+
+Hay una función randomChump() cuyo prototipo es: [ void randomChump( std::string name ); ]
+Debería crear un zombi en la pila y hacer que se anuncie.
+Lo ideal sería que el zombie se ubicara en la pila (por lo que se eliminaría implícitamente al final de la función). También se puede asignar en el montón y luego eliminarlo explícitamente.
+El estudiante debe justificar sus elecciones.
+Hay pruebas para demostrar que todo funciona.
+
+<br /><br />
+[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br />
+
+<h3>Ex01: Moar brainz!</h3>
+
+El objetivo de este ejercicio es asignar varios objetos al mismo tiempo usando new[], inicializarlos y eliminarlos correctamente.
+
+<br /><br />
+
+**Makefile y pruebas**
+
+Hay un Makefile que se compila usando los flags apropiados.
+Hay al menos un main para probar el ejercicio.
+
+<br /><br />
+
+**zombieHorde**
+
+La clase Zombie tiene un constructor predeterminado.
+Hay una función zombieHorde() cuyo prototipo es: [ Zombie* zombieHorde( int N, std::string name ); ]
+Asigna N zombis en el montón explícitamente usando new[].
+Después de la asignación, se produce una inicialización de los objetos para establecer su nombre.
+Devuelve un puntero al primer zombi.
+Hay suficientes pruebas en general para probar los puntos anteriores.
+Ej: llamar a announce() en todos los zombies.
+Por último, todos los zombies deben eliminarse al mismo tiempo en el archivo main.
+
+<br /><br />
+
+<h3>Ex02: HI THIS IS BRAIN</h3>
+
+¡Desmitifica las referencias! ¡Desmitifica las referencias! ¡Desmitifica las referencias! ¡Desmitifica las referencias! ¡Desmitifica las referencias! ¡Desmitifica las referencias! ¡Desmitifica las referencias! ¡Desmitifica las referencias! ¡Desmitifica las referencias! ¡Desmitifica las referencias! ¡Desmitifica las referencias! ¡Desmitifica las referencias!
+
+<br /><br />
+
+**Makefile y pruebas**
+
+Hay un Makefile que se compila usando los flags apropiados.
+Hay al menos un main para probar el ejercicio.
+
+<br /><br />
+
+**HI THIS IS BRAIN**
+
+Hay un string que contiene "HI THIS IS BRAIN".
+stringPTR es un puntero al string.
+stringREF es una referencia al string.
+La dirección del string se muestra utilizando la variable del string, stringPTR y stringREF.
+EL string se muestra utilizando stringPTR y stringREF.
+
+<br /><br />
+[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br />
+
+<h3>Ex03: Unnecessary violence</h3>
+
+El objetivo de este ejercicio es comprender que los punteros y referencias presentan algunas pequeñas diferencias que los hacen más apropiados según el uso y el ciclo de vida del objeto utilizado.
+
+<br /><br />
+
+**Makefile and tests**
+
+Hay un Makefile que se compila usando los flags apropiados.
+Hay al menos un main para probar el ejercicio.
+
+<br /><br />
+
+**Weapon**
+
+Hay una clase Weapon que tiene un tipo string, un getType() y un setType().
+La función getType() devuelve una referencia constante al tipo de string.
+
+<br /><br />
+
+**HumanA and HumanB**
+
+HumanA puede tener una referencia o un puntero al Weapon.
+Lo ideal sería implementarlo como referencia, ya que el Weapon existe desde la creación hasta la destrucción y nunca cambia.
+HumanB debe tener un puntero a un Weapon ya que el campo no está configurado en el momento de la creación y el Weapon puede ser NULL.
+
+<br /><br />
+[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br />
+
+<h3>Ex04: Sed is for losers</h3>
+
+Gracias a este ejercicio, el alumno debería haberse familiarizado con ifstream y ofstream.
+
+<br /><br />
+
+**Makefile and tests**
+
+Hay un Makefile que se compila usando los flags apropiados.
+Hay al menos un main para probar el ejercicio.
+
+<br /><br />
+
+**ex04**
+
+Hay una función de reemplazo (u otro nombre) que funciona como se especifica en el asunto.
+La gestión de errores es eficiente: intentar pasar un archivo que no existe, cambiar los permisos, pasarlo vacío, etc.
+Si puede encontrar un error que no se soluciona y que no es completamente esotérico, no hay puntos para este ejercicio.
+El programa debe leer el archivo usando ifstream o equivalente, y escribir usando ofstream o equivalente.
+La implementación de la función debe realizarse utilizando funciones de std::string, no leyendo el string carácter por carácter.
+¡Esto ya no es C!
+
+<br /><br />
+[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br />
+
+<h3>Ex05: Karen 2.0</h3>
+
+El objetivo de este ejercicio es utilizar punteros a funciones de miembros de clase. Además, esta es la oportunidad de descubrir los diferentes niveles de registro.
+
+<br /><br />
+
+**Makefile and tests**
+
+Hay un Makefile que se compila usando los flags apropiados.
+Hay al menos un main para probar el ejercicio.
+
+<br /><br />
+
+**Our beloved Karen**
+
+Se cuenta con una clase Karen con al menos las 5 funciones requeridas en la subject.
+La función complain() ejecuta las otras funciones usando un puntero hacia ellas.
+Idealmente, el estudiante debería haber implementado una forma de hacer coincidir las diferentes strings correspondientes al nivel de registro con los punteros de la función miembro correspondiente.
+Si la implementación es diferente pero el ejercicio funciona, debes marcarlo como válido. Lo único que no está permitido es tener un if/elseif/else.
+El estudiante pudo haber elegido cambiar el mensaje que muestra Karen o mostrar los ejemplos dados en el tema, ambos son válidos.
+
+<br /><br />
+[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br />
+
+<h3>Ex06: Karen-filter</h3>
+
+Ahora que eres codificador experimentado, deberías utilizar nuevos tipos de instrucciones, sentencias, bucles, etc. El objetivo de este último ejercicio es hacerte descubrir la sentencia switch.
+
+<br /><br />
+
+**Makefile and tests**
+
+Hay un Makefile que se compila usando los flags apropiados.
+Hay al menos un main para probar el ejercicio.
+
+<br /><br />
+
+**Switching Karen Off**
+
+El programa karenFilter toma como argumento cualquiera de los niveles de registro ("DEBUG", "INFO", "WARNING" o "ERROR"). Luego debería mostrar solo los mensajes que están en el mismo nivel o superior (DEBUG <INFO <WARNING <ERROR). Esto debe implementarse mediante una declaración de cambio con un caso predeterminado.
+Una vez más, ya no if/elseif/else, por favor.
+
+<br /><br />
+[**⬆⬆⬆⬆⬆⬆ subir ⬆⬆⬆⬆⬆⬆**](#cpp00)
+<br /><br />
