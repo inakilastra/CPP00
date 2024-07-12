@@ -22,9 +22,9 @@
 
 > Ficheros ex00  
 >
-> - :white_check_mark: [Makefile](#ex00-/-makefile) 
+> - :white_check_mark: [Makefile](#ex00-makefile) 
 >
-> - :white_check_mark: [megaphone](#ex00-/-megaphone)
+> - :white_check_mark: [megaphone](#ex00-megaphone)
 
 <br /><br /><br /><br />
 
@@ -1022,7 +1022,7 @@ Una vez más, ya no if/elseif/else, por favor.
 
 ## <h2>Ficheros ex00</h2>
 
-<h3>ex00/Makefile</h3>
+<h3>ex00 Makefile</h3>
 
 ```c++
 # **************************************************************************** #
@@ -1120,7 +1120,7 @@ re: fclean all
 [:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
-<h3>ex00/Megaphone</h3>
+<h3>ex00 Megaphone</h3>
 
 ```c++
 // Biblioteca que proporciona funciones para realizar operaciones de entrada y salida de datos.
