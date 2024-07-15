@@ -46,7 +46,7 @@
 
 > Ficheros ex02 (optional)  
 >
-> - :rotating_light: Sin hacer 
+> - :rotating_light: Undone - Sin realizar
 
 <br /><br /><br /><br />
 
