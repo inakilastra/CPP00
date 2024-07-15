@@ -15,7 +15,7 @@ ORANGE =		\033[38;5;209m
 	@$(CC) $(CFLAGS) -c $^ -o $@
 $(NAME): $(OBJS)
 		@${CC} ${CFLAGS} ${SRCS} -o ${NAME}
-		@echo "\n${YELLOW} ✅ ${GREEN}$(NAME) $(DEF_COLOR)\n"
+		@echo "\n${GREEN} ✅ $(NAME) $(DEF_COLOR)\n"
 all: $(NAME)
 clean:
 	@${RM} ${OBJS} ${DEPS}

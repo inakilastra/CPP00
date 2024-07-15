@@ -1,41 +1,35 @@
-#include "PhoneBook.h"  // Incluir el archivo de cabecera PhoneBook.h
+#include "PhoneBook.h"
 #include <thread>
 
-// Constructor de PhoneBook (inicializa el número de contactos a 0)
 PhoneBook::PhoneBook() : numContacts_(0) {}
 
-// Agregar un contacto a la agenda telefónica (considera la capacidad máxima)
 bool PhoneBook::addContact(const Contact& contact) 
 {
     if (numContacts_ == MAX_CONTACTS) 
     {
-        // Agenda llena: reemplazar el contacto más antiguo (índice 0)
         contacts_[0] = contact;
         std::cout << "\nContact added successfully! (Replacing oldest contact)\n" << std::endl;
         return true;
     }
     else
     {
-        // Espacio disponible: agregar el contacto al final
         contacts_[numContacts_] = contact;
         numContacts_++;
         std::cout << "\nContact added successfully!\n" << std::endl;
         return true;
     }
-    return false; // En caso de error (ej.: falla al copiar el contacto)
+    return false;
 }
 
-// Buscar un contacto por índice (devuelve un puntero constante)
 const Contact* PhoneBook::searchContact(int index) const 
 {
     if (index >= 0 && index < numContacts_) 
     {
-        return &contacts_[index]; // Índice válido: devolver puntero constante al contacto
+        return &contacts_[index];
     }
-    return nullptr; // Índice fuera de rango: devolver nullptr
+    return nullptr;
 }
 
-// Mostrar todos los contactos de la agenda en un formato básico
 void PhoneBook::displayContacts() const 
 {
     int i = 0;
@@ -45,7 +39,6 @@ void PhoneBook::displayContacts() const
     while (i < numContacts_) 
     {
         std::cout << i << "         |";
-         // Mostrar solo los primeros 10 caracteres de cada campo (usar substr o lógica personalizada)
         strLen = contacts_[i].getFirstName().size();
         if (strLen > 10) 
             std::cout << contacts_[i].getFirstName().substr(0, 10) << "|";

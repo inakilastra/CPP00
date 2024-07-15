@@ -17,6 +17,7 @@ ORANGE =		\033[38;5;209m
 $(NAME): $(OBJS)
 		@${CC} ${CFLAGS} ${SRCS} -o ${NAME}
 		@echo "\n${YELLOW} ✅ ${GREEN}$(NAME) $(DEF_COLOR)\n"
+		@echo "\nTests -- Pruebas\n"
 		@echo "\n${GREEN} ./megaphone \"shhhhh... I think the students are asleep...\" | cat -e"
 		@echo "${YELLOW} SHHHHH... I THINK THE STUDENTS ARE ASLEEP...\n"
 		@echo "${GREEN}$> ./megaphone Damnit \" ! \" \"Sorry students, I thought this thing was off.\" | cat -e"
