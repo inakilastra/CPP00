@@ -2,9 +2,11 @@
 
 <h1>C++ - Module 00</h1>
 
-<br /><br />
+<br />
 
-[Castellano](https://github.com/inakilastra/CPP00/blob/main/LEEME.md)
+> Other Languages
+>
+> - [Castellano](https://github.com/inakilastra/CPP00/blob/main/LEEME.md)
 
 > Subject
 >
@@ -12,7 +14,7 @@
 >
 > - :white_check_mark: [Evaluation](#evaluation) 
 
-<br /><br />
+<br />
 
 > Exercise ex00  
 >
@@ -20,7 +22,7 @@
 >
 > - :white_check_mark: [megaphone](#ex00-megaphone)
 
-<br /><br />
+<br />
 
 > Exercise ex01  
 >
@@ -36,7 +38,7 @@
 >
 > - :white_check_mark: [Phonebook.cpp](#ex01-Contatc-cpp)
 
-<br /><br />
+<br />
 
 > Exercise ex02 (optional)  
 >
