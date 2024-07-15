@@ -4,13 +4,13 @@
 
 <br /><br />
 
-[Castellano]()
+[English](https://github.com/inakilastra/CPP00/blob/main/README.md)
 
-> Subject
+> Module 00
 >
-> - :white_check_mark: [Subject](#subject-english)  
+> - :white_check_mark: [Subject](#subject-castellano)
 >
-> - :white_check_mark: [Evaluation](#evaluation) 
+> - :white_check_mark: [Evaluación](#evaluación)
 
 <br /><br />
 
@@ -38,9 +38,9 @@
 
 <br /><br />
 
-> Exercise ex02 (optional)  
+> Ficheros ex02 (opcional)  
 >
-> - :rotating_light: Undone
+> - :rotating_light: Sin realizar
 
 <br /><br /><br /><br />
 
