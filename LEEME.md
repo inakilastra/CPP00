@@ -12,19 +12,19 @@
 >
 > - :white_check_mark: [Subject](#subject)
 >
->   - :white_check_mark: [Exercise 00: Megaphone](#Exercise-00:-Megaphone)
+>   - :white_check_mark: [Exercise 00: Megaphone](#exercise-00-megaphone)
 >
->   - :white_check_mark: [Exercise 01: My Awesome PhoneBook](#Exercise-01:-My-Awesome-PhoneBook)
+>   - :white_check_mark: [Exercise 01: My Awesome PhoneBook](#exercise-01-my-awesome-phonebook)
 >
->   - :white_check_mark: [Exercise 02: The Job Of Your Dreams](#Exercise-02:-The-Job-Of-Your-Dreams)
+>   - :white_check_mark: [Exercise 02: The Job Of Your Dreams](#exercise-02-the-job-of-your-dreams)
 >
 > - :white_check_mark: [Evaluation](#evaluation)
 >
->   - :white_check_mark: [Ex00: Megaphone](#Ex00:-Megaphone)
+>   - :white_check_mark: [Ex00: Megaphone](#ex00-megaphone)
 >
->   - :white_check_mark: [Ex01: My Awesome Phonebook](#Ex01:-My-Awesome-Phonebook)
+>   - :white_check_mark: [Ex01: My Awesome Phonebook](#ex01-my-awesome-phonebook)
 >
->   - :white_check_mark: [Ex02: The Job Of Your Dreams](#Ex02:-The-Job-Of-Your-Dreams)
+>   - :white_check_mark: [Ex02: The Job Of Your Dreams](#ex02-the-job-of-your-dreams)
 
 <br /><br /><br /><br />
 
@@ -104,7 +104,7 @@ Sin embargo, sigue las reglas obligatorias y no seas holgazán.
 [:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
-### Exercise 00: Megaphone
+### Exercise 00 Megaphone
 
 Turn-in directory : ex00/<br />
 Files to turn in : Makefile, megaphone.cpp<br />
@@ -130,7 +130,7 @@ Resuelve los ejercicios en forma C++.
 [:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
-### Exercise 01: My Awesome PhoneBook
+### Exercise 01 My Awesome PhoneBook
 
 Turn-in directory : ex01/<br />
 Files to turn in : Makefile, *.cpp, *.{h, hpp}<br />
@@ -195,7 +195,7 @@ http://www.cplusplus.com/reference/iomanip/
 [:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
-### Exercise 02: The Job Of Your Dreams
+### Exercise 02 The Job Of Your Dreams
 
 Turn-in directory : ex02/<br />
 Files to turn in : Makefile, Account.cpp, Account.hpp, tests.cpp<br />
@@ -262,7 +262,7 @@ Cualquiera de estos significa que debes marcar el proyecto como Función Prohibi
 [:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **subir** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
-### Ex00: Megaphone
+### Ex00 Megaphone
 
 Este ejercicio es un calentamiento destinado a descubrir flujos de E/S básicos de C++.
 ¿Está funcionando?
@@ -273,7 +273,7 @@ Acepte el enfoque C++ (strings/upper).
 
 <br /><br />
 
-### Ex01: My Awesome Phonebook
+### Ex01 My Awesome Phonebook
 
 Este ejercicio es una primera aproximación a la redacción de una clase sencilla y un pequeño programa interactivo que la utilice. Si el ejercicio es no es completamente funcional, califique lo que se pueda calificar.
 
@@ -331,7 +331,7 @@ Esta parte tiene como objetivo utilizar iomanips de C++ y eso es en lo que debes
 [:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **top** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
-### Ex02: The Job Of Your Dreams
+### Ex02 The Job Of Your Dreams
 
 Este ejercicio pretende extraer información e instrucciones de ruido inútil e insertar un nuevo código en un contexto existente.
 
