@@ -8,11 +8,27 @@
 >
 > - [Castellano](https://github.com/inakilastra/CPP00/blob/main/LEEME.md)
 
-> Module 00
+<br /><br />
+
 >
-> - :white_check_mark: [Subject](#subject)  
+> - :white_check_mark: [Subject](#subject)
 >
-> - :white_check_mark: [Evaluation](#evaluation) 
+>   - :white_check_mark: [Exercise 00: Megaphone](#exercise-00-megaphone)
+>
+>   - :white_check_mark: [Exercise 01: My Awesome PhoneBook](#exercise-01-my-awesome-phonebook)
+>
+>   - :white_check_mark: [Exercise 02: The Job Of Your Dreams](#exercise-02-the-job-of-your-dreams)
+
+<br /><br />
+
+>
+> - :white_check_mark: [Evaluation](#evaluation)
+>
+>   - :white_check_mark: [Ex00: Megaphone](#ex00-megaphone)
+>
+>   - :white_check_mark: [Ex01: My Awesome Phonebook](#ex01-my-awesome-phonebook)
+>
+>   - :white_check_mark: [Ex02: The Job Of Your Dreams](#ex02-the-job-of-your-dreams)
 
 <br /><br /><br /><br />
 
@@ -95,7 +111,7 @@ theoretical concepts.
 [:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **top** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
-<h3>Exercise 00: Megaphone</h3>
+### <h3>Exercise 00: Megaphone</h3>
 
 Turn-in directory : ex00/<br />
 Files to turn in : Makefile, megaphone.cpp<br />
@@ -121,7 +137,7 @@ Solve the exercises in a C++ manner.
 [:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **top** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
-<h3>Exercise 01: My Awesome PhoneBook</h3>
+### <h3>Exercise 01: My Awesome PhoneBook</h3>
 
 Turn-in directory : ex01/<br />
 Files to turn in : Makefile, *.cpp, *.{h, hpp}<br />
@@ -187,7 +203,7 @@ http://www.cplusplus.com/reference/iomanip/
 [:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **top** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
-<h3>Exercise 02: The Job Of Your Dreams</h3>
+### <h3>Exercise 02: The Job Of Your Dreams</h3>
 
 Turn-in directory : ex02/<br />
 Files to turn in : Makefile, Account.cpp, Account.hpp, tests.cpp<br />
@@ -264,7 +280,7 @@ Accept C++ approach (strings/upper).
 
 <br /><br />
 
-<h3>Ex01: My Awesome Phonebook</h3>
+### <h3>Ex01: My Awesome Phonebook</h3>
 
 This exercise is a first approach to writing a simple class and a small interactive program that uses it. If the exercise is not fully functional, grade what can be graded.
 
@@ -318,7 +334,7 @@ This part aims to use C++ iomanips and that's what you should focus on.
 [:arrow_up::arrow_up::arrow_up::arrow_up::arrow_up: **top** :arrow_up::arrow_up::arrow_up::arrow_up::arrow_up:](#cpp00)
 <br /><br />
 
-<h3>Ex02: The Job Of Your Dreams</h3>
+### <h3>Ex02: The Job Of Your Dreams</h3>
 
 This exercise intends to extract information and directions from useless noise, and to insert new code into an existing context.
 
