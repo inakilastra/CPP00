@@ -8,7 +8,8 @@
 >
 > - [English](https://github.com/inakilastra/CPP00/blob/main/README.md)
 
-> Module 00
+<br /><br />
+
 >
 > - :white_check_mark: [Subject](#subject)
 >
@@ -17,6 +18,9 @@
 >   - :white_check_mark: [Exercise 01: My Awesome PhoneBook](#exercise-01-my-awesome-phonebook)
 >
 >   - :white_check_mark: [Exercise 02: The Job Of Your Dreams](#exercise-02-the-job-of-your-dreams)
+
+<br /><br />
+
 >
 > - :white_check_mark: [Evaluation](#evaluation)
 >
