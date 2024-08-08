@@ -4,11 +4,15 @@
 
 <br />
 
-> Other Languages
->
-> - [Castellano](https://github.com/inakilastra/CPP00/blob/main/LEEME.md)
+> [!NOTE] 
+> Other Languages: [Castellano](https://github.com/inakilastra/CPP00/blob/main/LEEME.md)
 
-<br /><br />
+<br />
+
+> [!IMPORTANT]  
+> At the end of each file you have an explanation of the code.
+
+<br />
 
 >
 > - :white_check_mark: [Subject](#subject)

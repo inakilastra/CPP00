@@ -4,11 +4,15 @@
 
 <br />
 
-> Otros Lenguajes
->
-> - [English](https://github.com/inakilastra/CPP00/blob/main/README.md)
+> [!NOTE] 
+> Otros Lenguajes: [English](https://github.com/inakilastra/CPP00/blob/main/README.md)
 
-<br /><br />
+<br />
+
+> [!IMPORTANT]  
+> Al final de cada fichero tienes una explicación del código.
+
+<br />
 
 >
 > - :white_check_mark: [Subject](#subject)
