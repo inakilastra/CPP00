@@ -64,3 +64,7 @@ int main(int argc, char **argv)
   return 0;
 }
 */
+
+/*
+  g++ -Wall -Wextra -Werror megaphone.cpp -o megaphone
+*/
